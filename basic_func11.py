@@ -7,4 +7,6 @@ def main(a):
     Returns:
         int: the absolute value.
     '''
-    return
+    b = abs(a)
+    return b
+print(main(-8))
