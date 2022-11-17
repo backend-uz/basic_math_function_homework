@@ -9,6 +9,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    c = ceil(23.5)
+    c = ceil(23%5)
     return c
 print(main(23,5))
