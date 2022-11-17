@@ -1,4 +1,5 @@
 def main(a, b):
+    from math import ceil
     '''find the modulus of a and b and return it.
     
     Args:
@@ -8,4 +9,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    c = ceil(23%5)
+    return c
+print(main(23,5))
